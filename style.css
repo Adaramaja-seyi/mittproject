@@ -35,7 +35,7 @@ ul {
   
   li a {
     display: block;
-    color: rgb(7, 2, 80);
+    color: #033348;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -43,11 +43,11 @@ ul {
 
   }
   
-  li a:hover {
+  /* li a:hover {
     background-color: #111;
-  }
+  } */
   .container1 button{
-    background-color: indigo;
+    background-color:#033348;
     padding: 12px 20px;
     float: right;
     margin-top: 8px;
@@ -71,7 +71,7 @@ ul {
   .container1 p{
     margin-top: -10%;
     margin-left: 5px;
-    color: blue;
+    color: #033348;
   }
   .prot{
     /* border: 1px solid red; */
@@ -94,7 +94,7 @@ ul {
     width: 100%;
   }
   .container2 button{
-    background-color: indigo;
+    background-color: #033348;
     padding: 12px 30px;
     margin-top: 18px;
     border-radius: 8px;
@@ -106,7 +106,7 @@ ul {
   }
   .our{
     border: 1px solid cadetblue;
-    background-color: cadetblue;
+    background-color: #033348;
     /* height: 300px; */
     
   }
@@ -146,5 +146,30 @@ ul {
   }
   .us h1{
     font-size: 40px;
+  }
+
+  .foot{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    color: white;
+    margin-left: 20%;
+   
+  }
+  .get{
+    display: flex;
+    margin-top: 20%;
+  }
+  .sect{
+    width: 100%;
+    background-color: #033348;
+    margin-top: 5%;
+  }
+  .foot h5{
+    font-size: 30px;
+  }
+  .foot p{
+    font-size: 20px;
+    line-height: 40px;
   }
   
