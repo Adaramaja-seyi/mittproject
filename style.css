@@ -1,0 +1,260 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.firstcontainer1{
+    /* border: 1px solid rgb(207, 30, 30); */
+    display: flex;
+    justify-content: space-evenly;
+}
+.container1 {
+    width: 40%;
+}
+.container1 p{
+    margin-top: -20px;
+    color:#033348 ;
+}
+.container1 img {
+    /* border: 1px solid rgb(207, 30, 30); */
+    width: 90%;
+}
+.log{
+    /* border: 1px solid rgb(207, 30, 30); */
+    display: flex; 
+    
+}
+.homecontainer{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    height: 70px;
+    margin-top: 40px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fffcfc;
+}
+.licontainer{
+    margin-top: 10px;
+}
+li {
+    float: right;
+    /* clear: both; */
+}
+li a {
+    display: block;
+    color: #033348;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .buttoncontainer{
+    margin-top: 10px;
+  }
+  .login{
+    padding: 12px 30px;
+  }
+     button{
+    background-color:#033348;
+     border-radius: 8px;
+    border:none;
+    padding: 12px 16px;
+    
+  }
+  button a{
+    color: white;
+    text-decoration: none;
+  }
+  .container2{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+  }
+  .protectioncontainer{
+    width: 90%;
+  }
+  .container2 img{
+    width: 100%;
+  }
+  .protectioncontainer h1 {
+    font-size: 65px;
+  }
+  .protectioncontainer p{
+    font-weight: 90;
+    font-size: 24px;
+  }
+  .container2 button{
+    margin-top: 20px;
+  }
+  .Service{
+    text-align: center;
+  }
+  .flex{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+     /* border: 6px solid red; */
+     width: 70%;
+     margin-left: 15%;
+     padding-top: 20px;
+  }
+  .flex1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+     width: 70%;
+     margin-left: 15%;
+     padding-top: 20px;
+     
+  }
+  .flex1 img{
+   margin-left: 3% ;
+  }
+  .flexpart img {
+    width: 30%;
+  }
+  .flexpart{
+    background-color:#033348;
+  }
+  .content{
+     /* border: 6px solid red; */
+     width: 90%;
+     margin-left: 5%;
+  }
+
+  .content h1{
+    text-align: center;
+    padding: 9px 5px ;
+  }
+  .content p{
+    /* text-align: center; */
+    padding: 9px 5px ;
+  }
+  .sect{
+    background-color:#033348;
+   }
+  .footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    width: 70%;
+    color: white;
+    margin-left: 12%;
+    padding: 10px 10px ;
+    line-height: 30px;
+  }
+  .footer p:hover{
+    color: #2491c0;
+  }
+  .contact2{
+    padding: 30px;
+    line-height: 20px;
+  }
+  .footer h3{ 
+    padding-left: 3px;
+  }
+  #connect2{
+    border-right: 1px solid rgb(245, 241, 241);
+    
+
+  }
+  .get{
+    display: flex;
+  }
+  #connect2 p{
+    border: 1px solid white;
+    width: 80%;
+    background-color: white;
+    color: #033348;
+    padding-left: 5px;
+  }
+  @media screen and (max-width: 900px)
+   {
+    .firstcontainer1{
+      width: 100%;
+     }
+     .homecontainer{
+      display: none;
+     }
+     .container1{
+      width: 100%;
+     }
+     .container2{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+     }
+     .container2 h1{
+      font-size: 40px;
+     }
+     .container2 h1{
+      font-size: 40px;
+     }
+     .container2 p{
+      font-size: 20px;
+     }
+     .container2 button{
+      width: 100%;
+      padding-bottom: 20px;
+      margin-bottom: 30px;
+     }
+     .container2 button{
+
+     }
+     .flex{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin: auto;
+     }
+     .flexpart{
+      width: 100%;
+      background-color: white;
+     }
+     .flexpart img{
+      width: 100%;
+      margin-left: none;
+      padding: 20px;
+      
+     }
+     .flex1{
+      flex-direction: column;
+      width: 100%;
+      margin: auto;
+     }
+     .flex1 img{
+      width: 100%;
+      padding: 20px;
+      margin: auto;
+     }
+     .content{
+      width: 90%;
+     }
+     .footer{
+      width: 100%;
+      flex-direction: column;
+      margin: auto;
+     }
+     .connect{
+      margin: auto;
+      margin-bottom: 20px;
+     }
+     .contact2{
+      margin: auto;
+     }
+     #connect2{
+      border: none;
+     }
+
+  }
+
+
+  
