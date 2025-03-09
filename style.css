@@ -6,9 +6,12 @@
 body{
   font-family: Poppins  ;
 }
+.backgroundimg{
+  background-image: url(/image/Ellipse\ 14.jpg.png);
+  background-repeat: no-repeat;
+  }
 .firstcontainer1{
-    /* border: 1px solid rgb(207, 30, 30); */
-    display: flex;
+       display: flex;
     font-family: Poppins  ;
     justify-content: space-evenly;
 }
@@ -20,11 +23,9 @@ body{
     color:#033348 ;
 }
 .container1 img {
-    /* border: 1px solid rgb(207, 30, 30); */
     width: 90%;
 }
 .log{
-    /* border: 1px solid rgb(207, 30, 30); */
     display: flex; 
     
 }
@@ -46,7 +47,6 @@ ul {
 }
 li {
     float: right;
-    /* clear: both; */
 }
 li a {
     display: block;
@@ -109,7 +109,7 @@ li a {
     flex-direction: row;
     justify-content: center;
     justify-content: space-evenly;
-     /* border: 6px solid red; */
+
      width: 70%;
      margin-left: 15%;
      padding-top: 20px;
@@ -138,7 +138,6 @@ li a {
     background-color:#033348;
   }
   .content{
-     /* border: 6px solid red; */
      width: 90%;
      margin-left: 5%;
      font-family: Poppins  ;
@@ -149,7 +148,6 @@ li a {
     padding-bottom:20px ;
   }
   .content p{
-    /* text-align: center; */
     padding: 9px 5px ;
   }
   .sect{
@@ -208,7 +206,7 @@ li a {
       padding-top: 10px
      }
      .container1 img{
-      margin-left: -90%;
+      margin-left: -45%;
      }
      
      .container2{
@@ -218,7 +216,7 @@ li a {
       text-align: center;
      }
      .container2 h1{
-      font-size: 25px;
+      font-size: 20px;
       padding-top: 10px;
      }
      .container2 p{
@@ -231,7 +229,7 @@ li a {
      }
      .container1 p{
         font-size: 7px;
-        margin-left: -90%;
+        margin-left: -40%;
         padding-top: 8px;
      }
      .flex{
@@ -267,7 +265,6 @@ li a {
      }
      .footer{
       width: 100%;
-      /* flex-direction: column; */
       margin: auto;
       flex-wrap: wrap;
       
@@ -278,7 +275,6 @@ li a {
       
      }
      .contact2{
-      /* margin: auto; */
       flex-wrap: wrap;
      }
      #connect2{
