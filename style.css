@@ -3,9 +3,13 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+  font-family: Poppins  ;
+}
 .firstcontainer1{
     /* border: 1px solid rgb(207, 30, 30); */
     display: flex;
+    font-family: Poppins  ;
     justify-content: space-evenly;
 }
 .container1 {
@@ -68,11 +72,15 @@ li a {
     color: white;
     text-decoration: none;
   }
+  #menu{
+    display: none;
+  }
   .container2{
     display: flex;
     align-items: center;
     width: 80%;
     margin: auto;
+    font-family: Poppins  ;
   }
   .protectioncontainer{
     width: 90%;
@@ -81,11 +89,13 @@ li a {
     width: 100%;
   }
   .protectioncontainer h1 {
-    font-size: 65px;
+    font-size: 53px;
+    
   }
   .protectioncontainer p{
-    font-weight: 90;
-    font-size: 24px;
+    font-weight: 0;
+    font-size: 15px;
+    color: #2780a7;
   }
   .container2 button{
     margin-top: 20px;
@@ -104,6 +114,10 @@ li a {
      margin-left: 15%;
      padding-top: 20px;
   }
+  .contact2 a{
+    color: aliceblue;
+    text-decoration: none;
+  }
   .flex1{
     display: flex;
     flex-direction: row;
@@ -115,6 +129,7 @@ li a {
   }
   .flex1 img{
    margin-left: 3% ;
+   margin-bottom: 20px;
   }
   .flexpart img {
     width: 30%;
@@ -126,11 +141,12 @@ li a {
      /* border: 6px solid red; */
      width: 90%;
      margin-left: 5%;
+     font-family: Poppins  ;
   }
 
   .content h1{
     text-align: center;
-    padding: 9px 5px ;
+    padding-bottom:20px ;
   }
   .content p{
     /* text-align: center; */
@@ -149,9 +165,10 @@ li a {
     margin-left: 12%;
     padding: 10px 10px ;
     line-height: 30px;
+    font-family: Poppins  ;
   }
   .footer p:hover{
-    color: #2491c0;
+    color: #c0dd6f;
   }
   .contact2{
     padding: 30px;
@@ -159,11 +176,10 @@ li a {
   }
   .footer h3{ 
     padding-left: 3px;
+    font: 10px;
   }
   #connect2{
     border-right: 1px solid rgb(245, 241, 241);
-    
-
   }
   .get{
     display: flex;
@@ -180,12 +196,21 @@ li a {
     .firstcontainer1{
       width: 100%;
      }
+     #menu{
+      display: block;
+      margin-top: 8%;
+     }
      .homecontainer{
       display: none;
      }
      .container1{
-      width: 100%;
+      width: 50%;
+      padding-top: 10px
      }
+     .container1 img{
+      margin-left: -90%;
+     }
+     
      .container2{
       width: 100%;
       display: flex;
@@ -193,21 +218,21 @@ li a {
       text-align: center;
      }
      .container2 h1{
-      font-size: 40px;
-     }
-     .container2 h1{
-      font-size: 40px;
+      font-size: 25px;
+      padding-top: 10px;
      }
      .container2 p{
-      font-size: 20px;
+      font-size: 10px;
      }
      .container2 button{
       width: 100%;
       padding-bottom: 20px;
       margin-bottom: 30px;
      }
-     .container2 button{
-
+     .container1 p{
+        font-size: 7px;
+        margin-left: -90%;
+        padding-top: 8px;
      }
      .flex{
       display: flex;
@@ -237,21 +262,33 @@ li a {
      }
      .content{
       width: 90%;
+      text-align: center;
+      font-size: 10px;
      }
      .footer{
       width: 100%;
-      flex-direction: column;
+      /* flex-direction: column; */
       margin: auto;
+      flex-wrap: wrap;
+      
      }
      .connect{
       margin: auto;
       margin-bottom: 20px;
+      
      }
      .contact2{
-      margin: auto;
+      /* margin: auto; */
+      flex-wrap: wrap;
      }
      #connect2{
       border: none;
+     }
+     .footer h3{
+      font-size: 15px;
+     }
+     .footer p{
+      font-size: 12px;
      }
 
   }
